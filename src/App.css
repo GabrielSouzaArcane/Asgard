@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /*animation: App-logo-spin infinite 20s linear;*/
   }
 }
 
@@ -32,7 +32,270 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Menu {
+  position: fixed;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  width: 100%;
+  animation: animação 2s 2s backwards;
+}
+
+.Menu li:hover {
+  transform: scale(1.2);
+}
+
+
+@keyframes animação {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+
+.Fundo {
+  background-image: url('https://wallpaperaccess.com/full/1135558.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  animation: animaçãomain 2s backwards;
+}
+
+@keyframes animaçãomain {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+
+.Lista {
+  display: inline-flex;
+  gap: 100px;
+}
+
+.ListaB {
+  color: white;
+  list-style: none;
+}
+
+.ListaC {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.ListaC:hover {
+  color: blue;
+  transition: 1s;
+}
+
+.Logo {
+  width: 40px;
+  height: 40px;
+}
+
+.ImagensHome {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.textocentral {}
+
+
+footer {
+  margin-top: 32px;
+  display: flex;
+  padding-left: 400px;
+  padding-right: 400px;
+  justify-content: space-between;
+  background-color: rgb(30, 180, 240);
+  color: white;
+  font-size: 12px;
+}
+
+.Historia {
+  padding: 32px;
+}
+
+.Conteudo {
+  padding: 32px;
+}
+
+.Trabalho {
+  padding: 32px;
+}
+
+.Atendimento {
+  padding: 32px;
+}
+
+.Informações {
+  padding: 32px;
+}
+
+.fundoA {
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  margin-top: 150px;
+  height: 4600px;
+  padding-top: 1px;
+  border-radius: 12px;
+}
+
+.fundoB {
+  background-color: rgb(241, 244, 137);
+  height: 4580px;
+  border-radius: 12px;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.fundoC {
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  margin-top: 150px;
+  height: 1200px;
+  padding-top: 1px;
+  border-radius: 12px;
+}
+
+.fundoD {
+  text-align: justify;
+  background-color: rgb(241, 244, 137);
+  height: 1200px;
+  border-radius: 12px;
+  text-align: justify;
+}
+
+.fundoE {
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  margin-top: 150px;
+  height: 800px;
+  padding-top: 1px;
+  border-radius: 12px;
+}
+
+.fundoF {
+  text-align: center;
+  margin-top: 15px;
+  background-color: rgb(241, 244, 137);
+  height: 800px;
+  border-radius: 12px;
+
+}
+
+.fundoF2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.fundoF3 {
+  background-color: #fff9f7;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 32px;
+  height: 350px;
+  border: 7px solid #f63700;
+}
+
+.fundoG {
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  margin-top: 150px;
+  height: 400px;
+  padding-top: 1px;
+  border-radius: 12px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fundoH {
+
+  background-color: rgb(241, 244, 137);
+  height: 400px;
+  border-radius: 12px;
+  text-align: center;
+
+}
+
+button {
+  background-color: #f63700;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  width: 80px;
+  height: 40px;
+  border: 3px solid black;
+}
+
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.fundoI {
+  background-image: linear-gradient(to right, rgb(30, 180, 240), rgb(212, 0, 255));
+  margin-top: 150px;
+  height: 700px;
+  padding-top: 1px;
+  border-radius: 12px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fundoJ {
+  background-color: rgb(241, 244, 137);
+  height: 700px;
+  border-radius: 12px;
+   padding: 10px ;
+  margin-top: 20px;}
+
+.fundoJ2 {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-left: 10%;
+  margin-right: 90%;
+  border: 6px solid #f63700;
+  margin-top: 10px;
+}
+
+.fundoJ3 {
+  background-color: white;
+  width: 60%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #f63700;
+  border-radius: 13px;
+  margin-top: 20px;
+
+}
+.fundoJ3 p {
+  padding: 10px;
 }
