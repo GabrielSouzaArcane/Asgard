@@ -17,7 +17,7 @@ function App() {
         <body className='Fundo'>
 
           <Routes>
-            <Route exact path="/Home" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/Historia" element={<Historia />} />
             <Route path="/Horario" element={<Horario />} />
             <Route path="/Trabalho" element={<Trabalho/>} />
